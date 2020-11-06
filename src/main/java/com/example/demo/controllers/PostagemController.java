@@ -19,7 +19,7 @@ import com.example.demo.model.PostagemModel;
 import com.example.demo.repositories.PostagemRepository;
 
 @RestController
-@RequestMapping("/postagens")
+@RequestMapping("/postagem")
 @CrossOrigin("*")
 public class PostagemController {
 

@@ -16,7 +16,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.sun.istack.NotNull;
 
 @Entity
-@Table(name = "postagens")
+@Table(name = "postagem")
 public class PostagemModel {
 
 	//ATRIBUTOS DA TABELA
