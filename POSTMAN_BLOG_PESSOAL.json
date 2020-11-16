@@ -122,14 +122,14 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/postagem/1",
+					"raw": "localhost:8080/postagem/3",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
 						"postagem",
-						"1"
+						"3"
 					]
 				}
 			},
@@ -212,6 +212,62 @@
 					"port": "8080",
 					"path": [
 						"postagem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_CADASTRAR_USUARIO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\" : \"Victor Augusto\",\r\n    \"usuario\" : \"VictorFPS314\",\r\n    \"senha\" : \"3141592653\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/usuarios/cadastrar",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuarios",
+						"cadastrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_LOGIN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usuario\" : \"VictorFPS314\",\r\n    \"senha\" : \"3141592653\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/usuarios/logar",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuarios",
+						"logar"
 					]
 				}
 			},
